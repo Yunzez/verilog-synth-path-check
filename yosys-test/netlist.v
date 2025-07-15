@@ -31,154 +31,154 @@ module top(CLK, RST, enable, value, led);
   wire [7:0] _022_;
   wire [7:0] _023_;
   (* force_downto = 32'd1 *)
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:274.23-274.25" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:274.23-274.25" *)
   (* unused_bits = "23 24 25 26 27 28 29 30 31" *)
   wire [31:0] _024_;
   (* force_downto = 32'd1 *)
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:270.23-270.24" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:270.23-270.24" *)
   (* unused_bits = "24 25 26 27 28 29 30 31" *)
   wire [31:0] _025_;
   (* force_downto = 32'd1 *)
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:270.26-270.27" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:270.26-270.27" *)
   (* unused_bits = "24 25 26 27 28 29 30 31" *)
   wire [31:0] _026_;
   (* force_downto = 32'd1 *)
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:214.23-214.24" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:214.23-214.24" *)
   (* unused_bits = "23 24 25 26 27 28 29 30 31" *)
   wire [31:0] _027_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _028_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _029_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _030_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _031_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _032_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _033_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _034_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _035_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _036_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _037_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _038_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _039_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _040_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _041_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _042_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _043_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _044_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _045_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)
   wire _046_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _047_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _048_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _049_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _050_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _051_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _052_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _053_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _054_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _055_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _056_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _057_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _058_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _059_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _060_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)
   wire _061_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _062_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _063_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _064_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _065_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _066_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _067_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _068_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _069_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _070_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _071_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _072_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _073_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _074_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _075_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _076_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _077_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _078_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)
   wire _079_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _080_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _081_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _082_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _083_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _084_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _085_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _086_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _087_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _088_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _089_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _090_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _091_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _092_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _093_;
-  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
+  (* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)
   wire _094_;
   (* src = "top.v:3.10-3.13" *)
   input CLK;
@@ -390,165 +390,165 @@ module top(CLK, RST, enable, value, led);
   assign _021_[0] = _005_ ? (* src = "top.v:17.10-17.20|top.v:17.7-24.10" *) _023_[7] : _020_[0];
   assign _021_[1] = _005_ ? (* src = "top.v:17.10-17.20|top.v:17.7-24.10" *) _023_[1] : _020_[7];
   assign _021_[7] = _005_ ? (* src = "top.v:17.10-17.20|top.v:17.7-24.10" *) _023_[7] : _020_[7];
-  assign _026_[1] = _025_[1] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[0];
-  assign _026_[2] = _025_[2] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[1];
-  assign _026_[3] = _025_[3] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[2];
-  assign _026_[4] = _025_[4] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[3];
-  assign _026_[5] = _025_[5] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[4];
-  assign _026_[6] = _025_[6] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[5];
-  assign _026_[7] = _025_[7] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[6];
-  assign _026_[8] = _025_[8] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[7];
-  assign _026_[9] = _025_[9] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[8];
-  assign _026_[10] = _025_[10] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[9];
-  assign _026_[11] = _025_[11] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[10];
-  assign _026_[12] = _025_[12] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[11];
-  assign _026_[13] = _025_[13] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[12];
-  assign _026_[14] = _025_[14] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[13];
-  assign _026_[15] = _025_[15] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[14];
-  assign _026_[16] = _025_[16] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[15];
-  assign _026_[17] = _025_[17] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[16];
-  assign _026_[18] = _025_[18] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[17];
-  assign _026_[19] = _025_[19] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[18];
-  assign _026_[20] = _025_[20] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[19];
-  assign _026_[21] = _025_[21] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[20];
-  assign _026_[22] = _025_[22] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[21];
-  assign _026_[23] = _025_[23] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[22];
-  assign _025_[0] = count[0] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[0];
-  assign _025_[1] = count[1] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[1];
-  assign _025_[2] = count[2] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[2];
-  assign _025_[3] = count[3] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[3];
-  assign _025_[4] = count[4] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[4];
-  assign _025_[5] = count[5] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[5];
-  assign _025_[6] = count[6] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[6];
-  assign _025_[7] = count[7] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[7];
-  assign _025_[8] = count[8] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[8];
-  assign _025_[9] = count[9] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[9];
-  assign _025_[10] = count[10] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[10];
-  assign _025_[11] = count[11] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[11];
-  assign _025_[12] = count[12] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[12];
-  assign _025_[13] = count[13] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[13];
-  assign _025_[14] = count[14] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[14];
-  assign _025_[15] = count[15] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[15];
-  assign _025_[16] = count[16] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[16];
-  assign _025_[17] = count[17] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[17];
-  assign _025_[18] = count[18] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[18];
-  assign _025_[19] = count[19] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[19];
-  assign _025_[20] = count[20] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[20];
-  assign _025_[21] = count[21] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[21];
-  assign _025_[22] = count[22] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[22];
-  assign _025_[23] = count[23] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[23];
-  assign _024_[0] = count[0] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[0];
-  assign _027_[1] = count[1] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[1];
-  assign _027_[2] = count[2] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[2];
-  assign _027_[3] = count[3] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[3];
-  assign _027_[4] = count[4] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[4];
-  assign _027_[5] = count[5] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[5];
-  assign _027_[6] = count[6] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[6];
-  assign _027_[7] = count[7] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[7];
-  assign _027_[8] = count[8] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[8];
-  assign _027_[9] = count[9] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[9];
-  assign _027_[10] = count[10] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[10];
-  assign _027_[11] = count[11] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[11];
-  assign _027_[12] = count[12] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[12];
-  assign _027_[13] = count[13] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[13];
-  assign _027_[14] = count[14] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[14];
-  assign _027_[15] = count[15] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[15];
-  assign _027_[16] = count[16] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[16];
-  assign _027_[17] = count[17] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[17];
-  assign _027_[18] = count[18] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[18];
-  assign _027_[19] = count[19] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[19];
-  assign _027_[20] = count[20] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[20];
-  assign _027_[21] = count[21] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[21];
-  assign _027_[22] = count[22] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[22];
-  assign _028_ = _025_[1] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _024_[0];
-  assign _029_ = _025_[3] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[2];
-  assign _030_ = _025_[5] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[4];
-  assign _031_ = _025_[7] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[6];
-  assign _032_ = _025_[9] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[8];
-  assign _033_ = _025_[11] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[10];
-  assign _034_ = _025_[13] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[12];
-  assign _035_ = _025_[15] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[14];
-  assign _036_ = _025_[17] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[16];
-  assign _037_ = _025_[19] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[18];
-  assign _038_ = _025_[21] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[20];
-  assign _039_ = _047_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _024_[1];
-  assign _040_ = _049_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _081_;
-  assign _041_ = _051_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _083_;
-  assign _042_ = _053_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _085_;
-  assign _043_ = _055_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _087_;
-  assign _044_ = _057_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _024_[3];
-  assign _045_ = _059_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _091_;
-  assign _046_ = _061_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _024_[7];
-  assign _047_ = _025_[3] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[2];
-  assign _048_ = _025_[5] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[4];
-  assign _049_ = _025_[7] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[6];
-  assign _050_ = _025_[9] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[8];
-  assign _051_ = _025_[11] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[10];
-  assign _052_ = _025_[13] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[12];
-  assign _053_ = _025_[15] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[14];
-  assign _054_ = _025_[17] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[16];
-  assign _055_ = _025_[19] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[18];
-  assign _056_ = _025_[21] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[20];
-  assign _057_ = _049_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _048_;
-  assign _058_ = _051_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _050_;
-  assign _059_ = _053_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _052_;
-  assign _060_ = _055_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _054_;
-  assign _061_ = _059_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _058_;
-  assign _062_ = _058_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[7];
-  assign _063_ = _060_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[15];
-  assign _064_ = _048_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[3];
-  assign _065_ = _050_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[7];
-  assign _066_ = _052_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[11];
-  assign _067_ = _054_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[15];
-  assign _068_ = _056_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[19];
-  assign _069_ = _025_[2] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[1];
-  assign _070_ = _025_[4] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[3];
-  assign _071_ = _025_[6] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[5];
-  assign _072_ = _025_[8] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[7];
-  assign _073_ = _025_[10] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[9];
-  assign _074_ = _025_[12] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[11];
-  assign _075_ = _025_[14] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[13];
-  assign _076_ = _025_[16] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[15];
-  assign _077_ = _025_[18] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[17];
-  assign _078_ = _025_[20] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[19];
-  assign _079_ = _025_[22] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[21];
-  assign _024_[1] = _027_[1] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _028_;
-  assign _080_ = _027_[3] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _029_;
-  assign _081_ = _027_[5] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _030_;
-  assign _082_ = _027_[7] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _031_;
-  assign _083_ = _027_[9] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _032_;
-  assign _084_ = _027_[11] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _033_;
-  assign _085_ = _027_[13] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _034_;
-  assign _086_ = _027_[15] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _035_;
-  assign _087_ = _027_[17] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _036_;
-  assign _088_ = _027_[19] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _037_;
-  assign _089_ = _027_[21] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _038_;
-  assign _024_[3] = _080_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _039_;
-  assign _090_ = _082_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _040_;
-  assign _091_ = _084_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _041_;
-  assign _092_ = _086_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _042_;
-  assign _093_ = _088_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _043_;
-  assign _024_[7] = _090_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _044_;
-  assign _094_ = _092_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _045_;
-  assign _024_[15] = _094_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _046_;
-  assign _024_[11] = _091_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _062_;
-  assign _024_[19] = _093_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _063_;
-  assign _024_[5] = _081_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _064_;
-  assign _024_[9] = _083_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _065_;
-  assign _024_[13] = _085_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _066_;
-  assign _024_[17] = _087_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _067_;
-  assign _024_[21] = _089_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _068_;
-  assign _024_[2] = _027_[2] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _069_;
-  assign _024_[4] = _027_[4] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _070_;
-  assign _024_[6] = _027_[6] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _071_;
-  assign _024_[8] = _027_[8] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _072_;
-  assign _024_[10] = _027_[10] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _073_;
-  assign _024_[12] = _027_[12] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _074_;
-  assign _024_[14] = _027_[14] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _075_;
-  assign _024_[16] = _027_[16] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _076_;
-  assign _024_[18] = _027_[18] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _077_;
-  assign _024_[20] = _027_[20] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _078_;
-  assign _024_[22] = _027_[22] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _079_;
+  assign _026_[1] = _025_[1] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[0];
+  assign _026_[2] = _025_[2] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[1];
+  assign _026_[3] = _025_[3] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[2];
+  assign _026_[4] = _025_[4] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[3];
+  assign _026_[5] = _025_[5] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[4];
+  assign _026_[6] = _025_[6] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[5];
+  assign _026_[7] = _025_[7] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[6];
+  assign _026_[8] = _025_[8] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[7];
+  assign _026_[9] = _025_[9] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[8];
+  assign _026_[10] = _025_[10] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[9];
+  assign _026_[11] = _025_[11] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[10];
+  assign _026_[12] = _025_[12] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[11];
+  assign _026_[13] = _025_[13] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[12];
+  assign _026_[14] = _025_[14] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[13];
+  assign _026_[15] = _025_[15] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[14];
+  assign _026_[16] = _025_[16] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[15];
+  assign _026_[17] = _025_[17] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[16];
+  assign _026_[18] = _025_[18] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[17];
+  assign _026_[19] = _025_[19] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[18];
+  assign _026_[20] = _025_[20] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[19];
+  assign _026_[21] = _025_[21] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[20];
+  assign _026_[22] = _025_[22] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[21];
+  assign _026_[23] = _025_[23] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:289.13-289.25" *)  _024_[22];
+  assign _025_[0] = count[0] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[0];
+  assign _025_[1] = count[1] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[1];
+  assign _025_[2] = count[2] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[2];
+  assign _025_[3] = count[3] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[3];
+  assign _025_[4] = count[4] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[4];
+  assign _025_[5] = count[5] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[5];
+  assign _025_[6] = count[6] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[6];
+  assign _025_[7] = count[7] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[7];
+  assign _025_[8] = count[8] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[8];
+  assign _025_[9] = count[9] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[9];
+  assign _025_[10] = count[10] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[10];
+  assign _025_[11] = count[11] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[11];
+  assign _025_[12] = count[12] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[12];
+  assign _025_[13] = count[13] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[13];
+  assign _025_[14] = count[14] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[14];
+  assign _025_[15] = count[15] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[15];
+  assign _025_[16] = count[16] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[16];
+  assign _025_[17] = count[17] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[17];
+  assign _025_[18] = count[18] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[18];
+  assign _025_[19] = count[19] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[19];
+  assign _025_[20] = count[20] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[20];
+  assign _025_[21] = count[21] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[21];
+  assign _025_[22] = count[22] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[22];
+  assign _025_[23] = count[23] ^(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:288.13-288.20" *)  value[23];
+  assign _024_[0] = count[0] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[0];
+  assign _027_[1] = count[1] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[1];
+  assign _027_[2] = count[2] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[2];
+  assign _027_[3] = count[3] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[3];
+  assign _027_[4] = count[4] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[4];
+  assign _027_[5] = count[5] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[5];
+  assign _027_[6] = count[6] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[6];
+  assign _027_[7] = count[7] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[7];
+  assign _027_[8] = count[8] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[8];
+  assign _027_[9] = count[9] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[9];
+  assign _027_[10] = count[10] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[10];
+  assign _027_[11] = count[11] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[11];
+  assign _027_[12] = count[12] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[12];
+  assign _027_[13] = count[13] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[13];
+  assign _027_[14] = count[14] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[14];
+  assign _027_[15] = count[15] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[15];
+  assign _027_[16] = count[16] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[16];
+  assign _027_[17] = count[17] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[17];
+  assign _027_[18] = count[18] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[18];
+  assign _027_[19] = count[19] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[19];
+  assign _027_[20] = count[20] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[20];
+  assign _027_[21] = count[21] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[21];
+  assign _027_[22] = count[22] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.42-286.49" *)  value[22];
+  assign _028_ = _025_[1] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _024_[0];
+  assign _029_ = _025_[3] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[2];
+  assign _030_ = _025_[5] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[4];
+  assign _031_ = _025_[7] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[6];
+  assign _032_ = _025_[9] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[8];
+  assign _033_ = _025_[11] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[10];
+  assign _034_ = _025_[13] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[12];
+  assign _035_ = _025_[15] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[14];
+  assign _036_ = _025_[17] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[16];
+  assign _037_ = _025_[19] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[18];
+  assign _038_ = _025_[21] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _027_[20];
+  assign _039_ = _047_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _024_[1];
+  assign _040_ = _049_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _081_;
+  assign _041_ = _051_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _083_;
+  assign _042_ = _053_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _085_;
+  assign _043_ = _055_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _087_;
+  assign _044_ = _057_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _024_[3];
+  assign _045_ = _059_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _091_;
+  assign _046_ = _061_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.19-240.41" *)  _024_[7];
+  assign _047_ = _025_[3] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[2];
+  assign _048_ = _025_[5] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[4];
+  assign _049_ = _025_[7] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[6];
+  assign _050_ = _025_[9] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[8];
+  assign _051_ = _025_[11] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[10];
+  assign _052_ = _025_[13] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[12];
+  assign _053_ = _025_[15] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[14];
+  assign _054_ = _025_[17] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[16];
+  assign _055_ = _025_[19] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[18];
+  assign _056_ = _025_[21] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _025_[20];
+  assign _057_ = _049_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _048_;
+  assign _058_ = _051_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _050_;
+  assign _059_ = _053_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _052_;
+  assign _060_ = _055_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _054_;
+  assign _061_ = _059_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:241.12-241.34" *)  _058_;
+  assign _062_ = _058_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[7];
+  assign _063_ = _060_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[15];
+  assign _064_ = _048_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[3];
+  assign _065_ = _050_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[7];
+  assign _066_ = _052_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[11];
+  assign _067_ = _054_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[15];
+  assign _068_ = _056_ &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[19];
+  assign _069_ = _025_[2] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[1];
+  assign _070_ = _025_[4] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[3];
+  assign _071_ = _025_[6] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[5];
+  assign _072_ = _025_[8] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[7];
+  assign _073_ = _025_[10] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[9];
+  assign _074_ = _025_[12] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[11];
+  assign _075_ = _025_[14] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[13];
+  assign _076_ = _025_[16] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[15];
+  assign _077_ = _025_[18] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[17];
+  assign _078_ = _025_[20] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[19];
+  assign _079_ = _025_[22] &(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.19-248.41" *)  _024_[21];
+  assign _024_[1] = _027_[1] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _028_;
+  assign _080_ = _027_[3] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _029_;
+  assign _081_ = _027_[5] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _030_;
+  assign _082_ = _027_[7] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _031_;
+  assign _083_ = _027_[9] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _032_;
+  assign _084_ = _027_[11] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _033_;
+  assign _085_ = _027_[13] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _034_;
+  assign _086_ = _027_[15] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _035_;
+  assign _087_ = _027_[17] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _036_;
+  assign _088_ = _027_[19] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _037_;
+  assign _089_ = _027_[21] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _038_;
+  assign _024_[3] = _080_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _039_;
+  assign _090_ = _082_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _040_;
+  assign _091_ = _084_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _041_;
+  assign _092_ = _086_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _042_;
+  assign _093_ = _088_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _043_;
+  assign _024_[7] = _090_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _044_;
+  assign _094_ = _092_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _045_;
+  assign _024_[15] = _094_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:240.12-240.41" *)  _046_;
+  assign _024_[11] = _091_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _062_;
+  assign _024_[19] = _093_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _063_;
+  assign _024_[5] = _081_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _064_;
+  assign _024_[9] = _083_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _065_;
+  assign _024_[13] = _085_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _066_;
+  assign _024_[17] = _087_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _067_;
+  assign _024_[21] = _089_ |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _068_;
+  assign _024_[2] = _027_[2] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _069_;
+  assign _024_[4] = _027_[4] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _070_;
+  assign _024_[6] = _027_[6] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _071_;
+  assign _024_[8] = _027_[8] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _072_;
+  assign _024_[10] = _027_[10] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _073_;
+  assign _024_[12] = _027_[12] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _074_;
+  assign _024_[14] = _027_[14] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _075_;
+  assign _024_[16] = _027_[16] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _076_;
+  assign _024_[18] = _027_[18] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _077_;
+  assign _024_[20] = _027_[20] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _078_;
+  assign _024_[22] = _027_[22] |(* src = "top.v:22.18-22.31|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:286.27-286.69|/Users/yunzezhao/Code/verilog-synth-path-check/oss-cad-suite/libexec/../share/yosys/techmap.v:248.12-248.41" *)  _079_;
   assign _008_[3:1] = { state[6], state[6], state[6] };
   assign _009_[1] = state[6];
   assign _010_[3:1] = { state[6], state[6], state[6] };
