@@ -1,0 +1,8 @@
+read_verilog top.v
+hierarchy -check -top top
+proc
+opt
+fsm
+techmap
+opt
+write_verilog netlist.v
