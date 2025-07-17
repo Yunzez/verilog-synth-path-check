@@ -1,0 +1,1 @@
+# Heuristics: constants, equality scans, mux triggers

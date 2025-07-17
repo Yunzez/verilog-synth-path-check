@@ -15,3 +15,9 @@ produce RTLIL in yosys-json format, for verilog:
 
  produce RTLIL in yosys-json format, for netlist: 
  ../oss-cad-suite/bin/yosys -p "read_verilog netlist.v; hierarchy -auto-top; proc; opt; write_json netlist.json"
+
+
+doc for yosys RTLIL
+```
+https://yosyshq.readthedocs.io/projects/yosys/en/0.46/yosys_internals/formats/rtlil_rep.html
+```
