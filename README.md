@@ -21,3 +21,11 @@ doc for yosys RTLIL
 ```
 https://yosyshq.readthedocs.io/projects/yosys/en/0.46/yosys_internals/formats/rtlil_rep.html
 ```
+
+
+## To run the engine 
+```
+verilog-synth-path-check % python3 -m venv venv  
+verilog-synth-path-check % source venv/bin/activate
+verilog-synth-path-check % python -m symbolic_engine.main
+```
