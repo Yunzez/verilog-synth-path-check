@@ -1,1 +1,0 @@
-# Load & parse RTLIL JSON to internal data structures
