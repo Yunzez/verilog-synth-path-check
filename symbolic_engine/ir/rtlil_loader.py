@@ -28,19 +28,3 @@ def parse_top_module(rtlil_data: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
-import pandas as pd
-
-# Convert cells info into a readable format for inspection
-# cell_summary = []
-# for cell_name, cell_data in top_module_info['cells'].items():
-#     cell_summary.append({
-#         'cell_name': cell_name,
-#         'type': cell_data.get('type', ''),
-#         'parameters': cell_data.get('parameters', {}),
-#         'connections': list(cell_data.get('connections', {}).keys())
-#     })
-
-# df_cells = pd.DataFrame(cell_summary)
-
-
-# import ace_tools as tools; tools.display_dataframe_to_user(name="Parsed RTLIL Cells", dataframe=df_cells)

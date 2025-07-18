@@ -1,3 +1,5 @@
+from symbolic_engine.core.executor import run_one_cycle
+from symbolic_engine.core.state import init_symbolic_state
 from symbolic_engine.ir.rtlil_loader import load_rtlil_json, parse_top_module
 import pandas as pd
 
@@ -6,7 +8,7 @@ json_path = 'yosys-test/top.json'
 # Load and parse
 rtlil_data = load_rtlil_json(json_path)
 top_module_info = parse_top_module(rtlil_data)
-
+net_vars = init_symbolic_state(top_module_info['netnames'])
 # Convert cells to readable DataFrame
 cell_summary = []
 for cell_name, cell_data in top_module_info['cells'].items():
@@ -24,3 +26,8 @@ print(df_cells)
 
 # Or write to CSV
 # df_cells.to_csv("cell_summary.csv", index=False)
+# You already have df_cells
+outputs = run_one_cycle(df_cells, net_vars, top_module_info)
+
+for net, val in outputs.items():
+    print(f"{net} = {val}")
