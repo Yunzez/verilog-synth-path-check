@@ -57,17 +57,26 @@ def build_symbolic_topology(cells: dict):
     # First pass: collect producers and connections
     for cell_name, cell in cells.items():
         conns = cell["connections"]
+        directions = cell.get("port_directions", {})
 
         for port, nets in conns.items():
             if not isinstance(nets, list):
-                nets = [nets]  # normalize
+                nets = [nets]
+            direction = directions.get(port)
 
-            if port == "Y":  # output
+            if direction == "output":
                 for net in nets:
                     net_producers[net] = cell_name
-                    cell_outputs[cell_name].extend(nets)
-            else:  # input
+                cell_outputs[cell_name].extend(nets)
+
+            elif direction == "input":
                 cell_consumes[cell_name].extend(nets)
+
+            # optionally handle "inout" if needed
+            elif direction == "inout":
+                for net in nets:
+                    net_producers[net] = cell_name
+                    cell_consumes[cell_name].append(net)
 
     # Second pass: build cell dependency graph (cellA depends on cellB if B feeds A)
     cell_deps = defaultdict(set)  # cellA → set of cells that must run before it
