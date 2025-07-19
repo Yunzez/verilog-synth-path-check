@@ -1,33 +1,39 @@
 from symbolic_engine.core.executor import run_one_cycle
 from symbolic_engine.core.state import init_symbolic_state
-from symbolic_engine.ir.rtlil_loader import load_rtlil_json, parse_top_module
+from symbolic_engine.ir.rtlil_loader import build_symbolic_topology, load_rtlil_json, parse_top_module
 import pandas as pd
+from pprint import pprint
 
 json_path = 'yosys-test/top.json'
 
 # Load and parse
 rtlil_data = load_rtlil_json(json_path)
 top_module_info = parse_top_module(rtlil_data)
+topology_graph = build_symbolic_topology(top_module_info["cells"])
+pprint(topology_graph)
+from networkx import DiGraph, topological_sort
+import networkx as nx
+G = DiGraph()
+for cell, deps in topology_graph["cell_deps"].items():
+    for dep in deps:
+        G.add_edge(dep, cell)
+
+ordered_cells = list(topological_sort(G))
+pprint(ordered_cells)
+
 net_vars = init_symbolic_state(top_module_info['netnames'])
 # Convert cells to readable DataFrame
-cell_summary = []
-for cell_name, cell_data in top_module_info['cells'].items():
-    cell_summary.append({
-        'cell_name': cell_name,
-        'type': cell_data.get('type', ''),
-        'parameters': cell_data.get('parameters', {}),
-        'connections': list(cell_data.get('connections', {}).keys())
-    })
 
-df_cells = pd.DataFrame(cell_summary)
-
-# Display
-print(df_cells)
-
+# print(net_vars)
 # Or write to CSV
 # df_cells.to_csv("cell_summary.csv", index=False)
 # You already have df_cells
-outputs = run_one_cycle(df_cells, net_vars, top_module_info)
+outputs = run_one_cycle(
+    ports=top_module_info['ports'],
+    cells=top_module_info['cells'],
+    netnames=top_module_info['netnames'],
+    net_vars=net_vars
+)
 
-for net, val in outputs.items():
-    print(f"{net} = {val}")
+# for net, val in outputs.items():
+#     print(f"{net} = {val}")

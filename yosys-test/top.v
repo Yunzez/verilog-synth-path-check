@@ -17,7 +17,7 @@ module top
       if(state == 0) begin
         if(enable) state <= 1;
       end else if(state == 1) begin
-        state <= 2;
+        state <= 2; 
       end else if(state == 2) begin
         count <= count + value;
         state <= 0;
