@@ -6,8 +6,8 @@ module top
    input [31:0] value,
    output [7:0] led
   );
-  reg [31:0] count;
-  reg [7:0] state;
+  reg [31:0] count /*verilator public_flat_rw*/;
+  reg [7:0] state /*verilator public_flat_rw*/;
   assign led = count[23:16];
   always @(posedge CLK) begin
     if(RST) begin

@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/prototype/src/obj_dir",
-                "/usr/local/share/verilator/include"
+                "/usr/local/share/verilator/include",
+                "${workspaceFolder}/oss-cad-suite/share/verilator/include/vltstd"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

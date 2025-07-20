@@ -16,6 +16,8 @@
 // INCLUDE MODULE CLASSES
 #include "Vtop___024root.h"
 
+// DPI TYPES for DPI Export callbacks (Internal use)
+
 // SYMS CLASS (contains all model state)
 class alignas(VL_CACHE_LINE_BYTES)Vtop__Syms final : public VerilatedSyms {
   public:
@@ -26,6 +28,9 @@ class alignas(VL_CACHE_LINE_BYTES)Vtop__Syms final : public VerilatedSyms {
 
     // MODULE INSTANCE STATE
     Vtop___024root                 TOP;
+
+    // SCOPE NAMES
+    VerilatedScope __Vscope_top;
 
     // CONSTRUCTORS
     Vtop__Syms(VerilatedContext* contextp, const char* namep, Vtop* modelp);

@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        ".env*": "dotenv",
+        "locale": "cpp",
+        "__config": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "typeinfo": "cpp",
+        "*.inc": "cpp",
+        "random": "cpp",
+        "iosfwd": "cpp",
+        "functional": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
