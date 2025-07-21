@@ -43,6 +43,11 @@ verilator -cc top.v --exe klee_harness.cpp -Mdir obj_dir
 # (Use this to isolate the hardware model for standalone use)
 verilator -cc top.v -Mdir obj_dir
 
+# you can also try this test bench to see if your verilator works correctly by doing
+verilator -cc top.v --exe testbench.cpp -Mdir obj_dir
+make -C obj_dir -f Vtop.mk Vtop
+./obj_dir/Vtop
+
 # Step 3: Build the Verilated model with your testbench
 make -C obj_dir -f Vtop.mk Vtop
 
@@ -54,5 +59,33 @@ clang++ -std=c++17 -target x86_64-apple-macos12 \
   -I/usr/local/share/verilator/include \
   -I/usr/local/share/verilator/include/vltstd \
   -emit-llvm -c klee_harness.cpp -o klee_harness.bc
+
+# Compile the KLEE harness to LLVM bitcode
+clang++ -std=c++17 \
+  -Iobj_dir \
+  -I/home/linuxbrew/.linuxbrew/include \  # or your KLEE include path
+  -I/usr/local/share/verilator/include \
+  -I/usr/local/share/verilator/include/vltstd \
+  -emit-llvm -c klee_harness.cpp -o klee_harness.bc
+
+# Compile the Verilator runtime to bitcode
+clang++ -std=c++17 -emit-llvm -c \
+  /usr/local/share/verilator/include/verilated.cpp \
+  -I/usr/local/share/verilator/include \
+  -I/usr/local/share/verilator/include/vltstd \
+  -o verilated.bc
+
+# Compile the Verilator aggregate source file to bitcode
+clang++ -std=c++17 -emit-llvm -c obj_dir/Vtop__ALL.cpp \
+  -Iobj_dir \
+  -I/usr/local/share/verilator/include \
+  -I/usr/local/share/verilator/include/vltstd \
+  -o obj_dir/Vtop__ALL.bc
+
+# Link everything into a single bitcode file for KLEE
+llvm-link klee_harness.bc verilated.bc obj_dir/Vtop__ALL.bc -o final.bc
+
+# Run KLEE
+klee final.bc
 
 ```
